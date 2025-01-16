@@ -7,7 +7,7 @@ function Login() {
   return (
     <>
       {isLogged ? (
-        <Home titulo="Componente Home" texto="Bem-vindo de Volta!" />
+        <Home />
       ) : (
         <div>
           <h2>Componente Login</h2>
